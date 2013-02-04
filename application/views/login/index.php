@@ -13,7 +13,7 @@
      <label for="password">Password:</label>
      <input type="password" size="20" id="passowrd" name="password"/>
      <br/>
-     <input type="submit" value="Login"/>
-   </form>
+     <input type="submit" value="login" name="Login"/>
+   
  </body>
 </html>

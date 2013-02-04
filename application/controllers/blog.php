@@ -19,8 +19,12 @@ class Blog extends CI_Controller {
     public function index()
     {         
         $this->load->model("blog_model");
-        $this->load->helper('url');                    
-        $data["articles"] =  $this->blog_model->get_articles_list();        
-        $this->load->view('blog/index',$data);      
+        $this->load->helper('url');  
+        $this->load->helper(array('form'));                  
+        $data["articles"] =  $this->blog_model->get_articles_list();
+       
+        $this->load->view('blog/index',$data);
+       
+        // $this->load->view('login/index',$data);
     }
 }

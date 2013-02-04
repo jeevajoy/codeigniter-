@@ -1,15 +1,4 @@
 
-<?php
-$lastActivity = $this->session->userdata('last_activity');
-//print_r($lastActivity);
-$timeOut = 60;
-$this->session->userdata['timeout'] = time() + $timeout;   
-if( time() > $this->session->userdata['timeout'] ) 
-{
-  print_r($this->session->userdata);exit;
-}
-
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
