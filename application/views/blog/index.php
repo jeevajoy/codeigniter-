@@ -29,7 +29,8 @@
 <input name="username" type="text" />
 <label for="password">Password</label>
 <input name="password" type="password" />
-<input type="submit" value="LOG IN"/> 
+<input type="submit" value="Log In"/>
+<input type="button" value="Register"/>  
 </div>
 </div>
 </body>
